@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ecrous Engine | Download</title>
+	<link rel="icon" type="image/png" href="EcrousLogo.jpg" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+	<div class="background-blobs">
+		<div class="blob blob-1"></div>
+		<div class="blob blob-2"></div>
+		<div class="blob blob-3"></div>
+	</div>
+
+	<div class="glass-container" id="tilt-card">
+		<div class="shine"></div>
+
+		<header class="animate-item delay-1">
+			<div class="logo">
+				<div class="logo-box">
+					<span class="logo-icon">E</span>
+				</div>
+				Ecrous Engine
+			</div>
+			<span class="version-badge">ECX 2025.31.12</span>
+		</header>
+
+		<main>
+			<h1 class="animate-item delay-2">Создавай миры <br><span class="gradient-text">в браузере.</span></h1>
+			<p class="subtitle animate-item delay-3">Легкий игровой движок с визуальным скриптингом. <br>Без установки. Без
+				ограничений.</p>
+
+			<div class="actions animate-item delay-4">
+				<a href="https://daniildomashnev.github.io/Ecrous-Engine-31.12.2025/" class="btn btn-primary">
+					<span class="icon">✨</span>
+					<span class="btn-text">Open Web Editor</span>
+					<div class="btn-glow"></div>
+				</a>
+				<!-- <button id="download-btn" class="btn btn-secondary">
+					<span class="icon">↓</span>
+					<span>Download</span>
+				</button> -->
+			</div>
+
+			<div class="features-row animate-item delay-5">
+				<div class="feature tooltip-container">
+					<div class="dot green"></div>
+					<span>Бесплатно</span>
+					<div class="tooltip">Open Source (MIT)</div>
+				</div>
+				<div class="feature tooltip-container">
+					<div class="dot blue"></div>
+					<span>2D & 3D</span>
+					<div class="tooltip">Hybrid Core</div>
+				</div>
+				<div class="feature tooltip-container">
+					<div class="dot purple"></div>
+					<span>No-Code</span>
+					<div class="tooltip">Visual Nodes</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="animate-item delay-6">
+			<a href="https://daniildomashnev.github.io/Ecrous-Engine-Documentation/" class="hover-underline">Документация</a> •
+			<a href="https://github.com/DaniilDomashnev/Ecrous-Engine-31.12.2025" class="hover-underline">GitHub</a> •
+			<!-- <a href="#" class="hover-underline">Discord</a> -->
+		</footer>
+	</div>
+
+	<div class="modal-backdrop" id="dl-modal">
+		<div class="modal-card">
+			<button class="close-modal" id="close-btn">&times;</button>
+			<h3>Выберите платформу</h3>
+			<div class="platform-list">
+				<a href="#" class="platform-item" style="--i:1">
+					<div class="plat-info">
+						<span class="os-name">Windows</span>
+						<span class="os-ver">x64 Installer .exe</span>
+					</div>
+					<span class="arrow">→</span>
+				</a>
+				<a href="#" class="platform-item" style="--i:2">
+					<div class="plat-info">
+						<span class="os-name">macOS</span>
+						<span class="os-ver">Universal Binary</span>
+					</div>
+					<span class="arrow">→</span>
+				</a>
+				<a href="#" class="platform-item" style="--i:3">
+					<div class="plat-info">
+						<span class="os-name">Linux</span>
+						<span class="os-ver">AppImage</span>
+					</div>
+					<span class="arrow">→</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="scripts/app.js"></script>
+</body>
+
+</html>
